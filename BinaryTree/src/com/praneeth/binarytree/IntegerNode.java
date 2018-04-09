@@ -3,6 +3,9 @@ package com.praneeth.binarytree;
 public class IntegerNode {
 	
 private int value;
+private IntegerNode leftNode;
+private IntegerNode rightNode;
+
 public int getValue() {
 	return value;
 }
@@ -21,7 +24,6 @@ public IntegerNode getRightNode() {
 public void setRightNode(IntegerNode rightNode) {
 	this.rightNode = rightNode;
 }
-private IntegerNode leftNode;
-private IntegerNode rightNode;
+
 	
 }
